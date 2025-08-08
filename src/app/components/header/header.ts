@@ -9,5 +9,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.css'
 })
 export class Header {
-  title = signal('My first Angular App!');
+  title = signal('My first Angular App');
 }

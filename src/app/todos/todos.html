@@ -1,1 +1,6 @@
-<p>todos works!</p>
+<p>Todo List</p>
+<ul>
+  @for (todo of todoItems(); track todo.id) {
+    <li>{{ todo.title }}</li>
+  }
+</ul>
